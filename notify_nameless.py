@@ -49,6 +49,10 @@ def uploadNamelessToS3(fileContents):
 def main():
     # Get all members of the organization and add them to
     # namelessMembers if they don't have a name
+    if not config.GITHUB['username']:
+        print "Error: Please enter the required information in config.py"
+        return
+
     print "Gathering nameless members..."
     namelessMembers = []
     github = GitHub()
