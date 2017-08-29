@@ -5,7 +5,7 @@ You should only need to have Python 2.7.x installed. I ran it with 2.7.10.
 
 No additional libraries are required to be installed to run this code. I used other libraries but they should all be included with my code in the lib folder.
 
-In order for the app to work, you should only need to put the required information in the config.py file. All information in that fill is required.
+In order for the app to work, you should only need to put the required information in the config.py file. All information in that file is required.
 
 When you first run the code, if it's required to send an email, it will ask you to authenticate with your own Gmail account. It will then use your account to send the email through the Gmail API.
 
