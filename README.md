@@ -10,7 +10,7 @@ In order for the app to work, you should only need to put the required informati
 When you first run the code, if it's required to send an email, it will ask you to authenticate with your own Gmail account. It will then use your account to send the email through the Gmail API.
 
 ### How to run the app
-Inside the directory where the code resides run this in a terminal:
+Inside the directory where the code resides, run this in a terminal:
 `python notify_nameless.py`
 
 ### Assumptions
