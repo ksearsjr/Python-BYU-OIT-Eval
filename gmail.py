@@ -14,7 +14,7 @@ except ImportError:
 
 # If modifying these scopes, delete your previously saved credentials
 # at ~/.credentials/gmail-ken-sears-eval.json
-SCOPES = "https://www.googleapis.com/auth/gmail.modify"
+SCOPES = "https://www.googleapis.com/auth/gmail.send"
 CLIENT_SECRET_FILE = 'client_secret.json'
 APPLICATION_NAME = 'Skills Evaluation for BYU OIT'
 
